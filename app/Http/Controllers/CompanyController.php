@@ -95,6 +95,7 @@ class CompanyController extends Controller
             'first_name' => 'required',
             'email' => 'required',
             'website' => 'required',
+            'logo' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048|dimensions:min_width=100,min_height=100',
         ]);
 
          $company->updateCompany($validated);

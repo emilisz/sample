@@ -7,5 +7,6 @@
 @stop
 
 @section('content')
-    <p>You are logged in!</p>
+    <p>You are logged in! </p>
+    <a class="btn btn-info" href="/companies">Show all companies</a>
 @stop
